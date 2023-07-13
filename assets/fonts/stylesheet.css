@@ -1,0 +1,46 @@
+/* Sora */
+@font-face {
+    font-family: "Sora";
+    src: url("Sora/Sora-Light.woff2") format("woff2"),
+        url("Sora/Sora-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("Sora/Sora-Regular.woff2") format("woff2"),
+        url("Sora/Sora-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("Sora/Sora-SemiBold.woff2") format("woff2"),
+        url("Sora/Sora-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Open Sans */
+@font-face {
+    font-family: "Open Sans";
+    src: url("OpenSans/OpenSans-SemiBold.woff2") format("woff2"),
+        url("OpenSans/OpenSans-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("OpenSans/OpenSans-Regular.woff2") format("woff2"),
+        url("OpenSans/OpenSans-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

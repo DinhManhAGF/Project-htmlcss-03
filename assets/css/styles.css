@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #10375c;
+    --font-footer: "Open Sans", sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Sora", sans-serif;
+}
+
+/* ========== Common ========== */
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 205px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 3.333;
+    padding: 0 16px;
+    border-radius: 30px;
+    background: #2e80ce;
+}
+
+/* ========== Header ========== */
+.header {
+    background: var(--primary-color);
+}
+
+.header--fixed {
+    position: sticky;
+    top: -20px;
+    z-index: 1;
+}
+
+.header__nav {
+    padding: 30px 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__menu {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__menu__item-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 21px;
+    color: #c9d2da;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.nav__menu__item-link:hover,
+.nav__menu__item-link--active {
+    color: #fff;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.nav__menu__item-link--active::before {
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.header-action__sign-in {
+    margin-left: 222px;
+    color: #c9d2da;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.header-action__sign-up {
+    margin-left: 28px;
+    min-width: 104px;
+    font-size: 1.6rem;
+    line-height: 2.75;
+}
+
+/* ========== Hero ========== */
+.hero {
+    padding: 76px 0 110px;
+    background: var(--primary-color);
+}
+
+.container--hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero__content {
+    width: 50%;
+}
+
+.hero__media {
+    margin-left: 113px;
+    width: 50%;
+}
+
+.hero__title {
+    color: #fff;
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 1.143;
+    letter-spacing: -0.02em;
+}
+
+.hero__desc {
+    margin: 22px 0 38px;
+    color: #c9d2da;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+}
+
+.hero__num-phone {
+    margin-left: 38px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.67;
+}
+
+.hero__images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__img-up {
+    width: 330px;
+    height: 540px;
+    border-radius: 6px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero__img-down {
+    margin-left: -6px;
+    width: 210px;
+    height: 410px;
+    border-radius: 0px 6px 6px 0px;
+    object-fit: cover;
+}
+
+/* ========== Services ========== */
+.service {
+    margin: 170px 0;
+}
+
+.service-title {
+    color: #10375c;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.service-desc {
+    margin: 18px auto 70px;
+    width: 468px;
+    color: #575f66;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+}
+
+.service-content {
+    display: flex;
+    align-items: center;
+}
+
+.service-option {
+    margin-left: 130px;
+    width: 40%;
+}
+
+.service-image {
+    width: 570px;
+    height: 570px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.service-menu {
+    margin-bottom: 55px;
+}
+
+.service-menu__item {
+    padding: 21px 18px 20px 22px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.service-menu__item:hover {
+    background: #fff;
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+.service-img-teeth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93.52px;
+    height: 60px;
+    background: #EFF6FD;
+    border-radius: 50%;
+}
+
+.service-img-teeth--active {
+    color: #fff;
+    background: #2E80CE;
+}
+
+.serviec-sub-content {
+    margin-left: 19px;
+}
+
+.service-sub-title {
+    color: #10375c;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.service-item-desc {
+    margin-top: 8px;
+    color: #575f66;
+    font-weight: 300;
+    line-height: 1.75;
+}
