@@ -193,9 +193,7 @@
                             <ul class="service-menu">
                                 <li>
                                     <section class="service-menu__item">
-                                        <div
-                                            class="service-img-teeth service-img-teeth--active"
-                                        >
+                                        <div class="service-img-teeth">
                                             <svg
                                                 width="22"
                                                 height="24"
@@ -435,22 +433,26 @@
                     <ul class="team__menu">
                         <li>
                             <section class="team__item">
-                                <img
-                                    src="./assets/img/team-1.webp"
-                                    alt="Erling Haaland"
-                                    class="team-item__image"
-                                />
+                                <div class="team-item__img-bg">
+                                    <img
+                                        src="./assets/img/team-1.webp"
+                                        alt="Erling Haaland"
+                                        class="team-item__image"
+                                    />
+                                </div>
                                 <h3 class="team-item__name">Erling Haaland</h3>
                                 <p class="team-item__desc">FORWARD - NORWAY</p>
                             </section>
                         </li>
                         <li>
                             <section class="team__item">
-                                <img
-                                    src="./assets/img/team-2.webp"
-                                    alt="Kevin De Bruyne"
-                                    class="team-item__image"
-                                />
+                                <div class="team-item__img-bg">
+                                    <img
+                                        src="./assets/img/team-2.webp"
+                                        alt="Kevin De Bruyne"
+                                        class="team-item__image"
+                                    />
+                                </div>
                                 <h3 class="team-item__name">Kevin De Bruyne</h3>
                                 <p class="team-item__desc">
                                     MIDFIELDER - DRONGEN, BELGIUM
@@ -459,11 +461,13 @@
                         </li>
                         <li>
                             <section class="team__item">
-                                <img
-                                    src="./assets/img/team-3.webp"
-                                    alt="Rodrigo"
-                                    class="team-item__image"
-                                />
+                                <div class="team-item__img-bg">
+                                    <img
+                                        src="./assets/img/team-3.webp"
+                                        alt="Rodrigo"
+                                        class="team-item__image"
+                                    />
+                                </div>
                                 <h3 class="team-item__name">Rodrigo</h3>
                                 <p class="team-item__desc">
                                     MIDFIELDER - MADRID, SPAIN
@@ -472,11 +476,13 @@
                         </li>
                         <li>
                             <section class="team__item">
-                                <img
-                                    src="./assets/img/team-4.webp"
-                                    alt="Kyle Walker"
-                                    class="team-item__image"
-                                />
+                                <div class="team-item__img-bg">
+                                    <img
+                                        src="./assets/img/team-4.webp"
+                                        alt="Kyle Walker"
+                                        class="team-item__image"
+                                    />
+                                </div>
                                 <h3 class="team-item__name">Kyle Walker</h3>
                                 <p class="team-item__desc">
                                     DEFENDER - SHEFFIELD, ENGLAND
@@ -601,53 +607,62 @@
                             </button>
                         </div>
                     </section>
-                    <ul class="blog-menu">
-                        <li>
-                            <section class="blog__item">
-                                <img
-                                    src="./assets/img/blog-1.jpg"
-                                    alt="blog-1"
-                                    class="blog-item__image"
-                                />
-                                <section class="blog__sub-content">
+                    <div class="blog-menu">
+                        <!-- Blog item 1 -->
+                        <article class="blog__item">
+                            <figure class="blog-item__img-bg">
+                                <a href="#!">
+                                    <img
+                                        src="./assets/img/blog-1.jpg"
+                                        alt="blog-1"
+                                        class="blog-item__image"
+                                    />
+                                </a>
+                            </figure>
+                            <section class="blog__sub-content">
+                                <a href="#!">
                                     <h3 class="blog-item__title">
                                         Key Considerations for Regulatory
                                         Compliant.
                                     </h3>
-                                    <p class="blog-item__desc">
-                                        It’s easy to think about medical care
-                                        from a narrow perspective. You go to the
-                                        hospital.
-                                    </p>
-                                    <a href="" class="blog-item_more"
-                                        >Learn More</a
-                                    >
-                                </section>
+                                </a>
+                                <p class="blog-item__desc">
+                                    It’s easy to think about medical care from a
+                                    narrow perspective. You go to the hospital.
+                                </p>
+                                <a href="#!" class="blog-item_more">
+                                    Learn More
+                                </a>
                             </section>
-                        </li>
-                        <li>
-                            <section class="blog__item">
-                                <img
-                                    src="./assets/img/blog-2.jpg"
-                                    alt="blog-2"
-                                    class="blog-item__image"
-                                />
-                                <section class="blog__sub-content">
+                        </article>
+
+                        <!-- Blog item 2 -->
+                        <article class="blog__item">
+                            <figure class="blog-item__img-bg">
+                                <a href="#!">
+                                    <img
+                                        src="./assets/img/blog-2.jpg"
+                                        alt="blog-2"
+                                        class="blog-item__image"
+                                    />
+                                </a>
+                            </figure>
+                            <section class="blog__sub-content">
+                                <a href="#!">
                                     <h3 class="blog-item__title">
                                         What Is Population Health Management?
                                     </h3>
-                                    <p class="blog-item__desc">
-                                        It’s easy to think about medical care
-                                        from a narrow perspective. You go to the
-                                        hospital.
-                                    </p>
-                                    <a href="" class="blog-item_more"
-                                        >Learn More</a
-                                    >
-                                </section>
+                                </a>
+                                <p class="blog-item__desc">
+                                    It’s easy to think about medical care from a
+                                    narrow perspective. You go to the hospital.
+                                </p>
+                                <a href="#!" class="blog-item_more"
+                                    >Learn More</a
+                                >
                             </section>
-                        </li>
-                    </ul>
+                        </article>
+                    </div>
                 </div>
             </section>
 
