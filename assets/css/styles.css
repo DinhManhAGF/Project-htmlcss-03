@@ -33,7 +33,10 @@ a {
     text-decoration: none;
 }
 
-input, textarea, select, button {
+input,
+textarea,
+select,
+button {
     font-family: inherit;
     font-size: inherit;
 }
@@ -58,7 +61,7 @@ input, textarea, select, button {
 .header--fixed {
     position: sticky;
     top: -20px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .header__nav {
@@ -182,7 +185,8 @@ input, textarea, select, button {
 
 /* ========== Services ========== */
 .service {
-    margin: 170px 0;
+    margin: 100px 0;
+    padding-top: 70px;
 }
 
 .service-title {
@@ -333,7 +337,8 @@ input, textarea, select, button {
 
 /* ========== Services ========== */
 .about {
-    margin-top: 170px;
+    margin-top: 90px;
+    padding-top: 80px;
 }
 
 .container--about {
@@ -386,7 +391,8 @@ input, textarea, select, button {
 
 /* ========== Services ========== */
 .team {
-    margin-top: 170px;
+    margin-top: 110px;
+    padding-top: 60px;
 }
 
 .team__title {
@@ -786,5 +792,4 @@ input, textarea, select, button {
     color: #9ca8b1;
     font-size: 1.4rem;
     line-height: 1.86;
-
 }
